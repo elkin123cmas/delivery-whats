@@ -98,7 +98,7 @@ export default function ReservaSection() {
     mensaje += `⚠️ *Por favor confirmar disponibilidad*`;
 
     // Codificar y enviar
-    const whatsappNumber = "573052379574"; // Formato internacional sin +
+    const whatsappNumber = "573182251737"; // Formato internacional sin +
     const mensajeCodificado = encodeURIComponent(mensaje);
     const url = `https://wa.me/${whatsappNumber}?text=${mensajeCodificado}`;
     

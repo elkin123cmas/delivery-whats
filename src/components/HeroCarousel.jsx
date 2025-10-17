@@ -5,38 +5,72 @@ export default function HeroCarousel() {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   // Configura tus eventos/promociones aquí
+  // const slides = [
+  //   {
+  //     id: 1,
+  //     image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&q=80",
+  //     title: "🎉 Gran Inauguración",
+  //     subtitle: "¡Celebra con nosotros!",
+  //     description: "50% de descuento en todas las hamburguesas este fin de semana",
+  //     badge: "NUEVO",
+  //     ctaText: "Ver Menú",
+  //     gradient: "from-orange-600/90 via-red-600/80 to-pink-600/90"
+  //   },
+  //   {
+  //     id: 2,
+  //     image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&q=80",
+  //     title: "🍕 Noche de Pizza",
+  //     subtitle: "Todos los viernes",
+  //     description: "2x1 en pizzas familiares + bebida gratis",
+  //     badge: "PROMO",
+  //     ctaText: "Ordenar Ahora",
+  //     gradient: "from-yellow-600/90 via-orange-600/80 to-red-600/90"
+  //   },
+  //   {
+  //     id: 3,
+  //     image: "https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?w=1200&q=80",
+  //     title: "💑 Cenas Románticas",
+  //     subtitle: "Reserva tu mesa especial",
+  //     description: "Ambiente único para parejas con música en vivo",
+  //     badge: "ESPECIAL",
+  //     ctaText: "Reservar Mesa",
+  //     gradient: "from-purple-600/90 via-pink-600/80 to-red-600/90"
+  //   }
+  // ];
+
   const slides = [
-    {
-      id: 1,
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&q=80",
-      title: "🎉 Gran Inauguración",
-      subtitle: "¡Celebra con nosotros!",
-      description: "50% de descuento en todas las hamburguesas este fin de semana",
-      badge: "NUEVO",
-      ctaText: "Ver Menú",
-      gradient: "from-orange-600/90 via-red-600/80 to-pink-600/90"
-    },
-    {
-      id: 2,
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&q=80",
-      title: "🍕 Noche de Pizza",
-      subtitle: "Todos los viernes",
-      description: "2x1 en pizzas familiares + bebida gratis",
-      badge: "PROMO",
-      ctaText: "Ordenar Ahora",
-      gradient: "from-yellow-600/90 via-orange-600/80 to-red-600/90"
-    },
-    {
-      id: 3,
-      image: "https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?w=1200&q=80",
-      title: "💑 Cenas Románticas",
-      subtitle: "Reserva tu mesa especial",
-      description: "Ambiente único para parejas con música en vivo",
-      badge: "ESPECIAL",
-      ctaText: "Reservar Mesa",
-      gradient: "from-purple-600/90 via-pink-600/80 to-red-600/90"
-    }
-  ];
+  {
+    id: 1,
+    image: "https://images.unsplash.com/photo-1665401015549-712c0dc5ef85?w=1200&q=80", // filete de pescado
+    title: "🎉 Gran Inauguración",
+    subtitle: "¡Celebra con nosotros!",
+    description: "50% de descuento en todos los platos de mariscos este fin de semana",
+    badge: "NUEVO",
+    ctaText: "Ver Menú",
+    gradient: "from-blue-600/90 via-cyan-600/80 to-teal-600/90"
+  },
+  {
+    id: 2,
+    image: "https://images.unsplash.com/photo-1625943553852-781c6dd46faa?w=1200&q=80", // camarones y prawns
+    title: "🦐 Noche de Mariscos",
+    subtitle: "Todos los viernes",
+    description: "2x1 en cazuelas de mariscos + bebida refrescante gratis",
+    badge: "PROMO",
+    ctaText: "Ordenar Ahora",
+    gradient: "from-teal-600/90 via-blue-500/80 to-indigo-600/90"
+  },
+  {
+    id: 3,
+    image: "https://images.unsplash.com/photo-1514944288352-fffac99f0bdf?w=1200&q=80", // langostinos al ajillo
+    title: "💑 Cena Romántica en la Playa",
+    subtitle: "Reserva tu mesa especial",
+    description: "Disfruta de langostinos y ceviche frente al mar con música en vivo",
+    badge: "ESPECIAL",
+    ctaText: "Reservar Mesa",
+    gradient: "from-purple-600/90 via-pink-500/80 to-indigo-600/90"
+  }
+];
+
 
   // Auto-play del carrusel
   useEffect(() => {
