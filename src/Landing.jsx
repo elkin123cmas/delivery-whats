@@ -331,13 +331,15 @@ export default function App() {
         ))}
       </div>
 
+      
+
+      {/* Sección de Galleria */}
+      <GallerySection />
+
       {/* Sección de Reservas */}
       <div id="reservas">
         <ReservaSection />
       </div>
-
-      {/* Sección de Galleria */}
-      <GallerySection />
 
       {/* Modal Producto */}
       {selectedProduct && (
