@@ -321,7 +321,7 @@ export default function App() {
                         {product.name}
                       </h3>
                       <button className="w-full mt-3 bg-gradient-to-r from-orange-500 to-red-500 text-white py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-red-600 transition-all shadow-lg">
-                        Ver opciones ✨
+                        Pedir domicilio ✨
                       </button>
                     </div>
                   </div>
