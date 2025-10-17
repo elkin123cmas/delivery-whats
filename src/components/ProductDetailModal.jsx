@@ -1,4 +1,3 @@
-import React from "react";
 
 const ProductDetailModal = ({ isOpen, onClose, producto, dark }) => {
   if (!isOpen) return null;

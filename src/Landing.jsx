@@ -7,7 +7,6 @@ import CartModal from "./components/CartModal";
 import "./index.css";
 import GallerySection from "./components/GallerySection";
 import HeroCarousel from "./components/HeroCarousel";
-import MenuQR from "./pages/MenuQR";
 
 export default function App() {
   // Carrito y modales
